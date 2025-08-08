@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import axios from "axios";
 import RepoCard from "./RepoCard";
 import type { Repo } from "./types";
@@ -112,5 +112,6 @@ const TrendingRepos = () => {
     </div>
   );
 };
+
 
 export default TrendingRepos;
