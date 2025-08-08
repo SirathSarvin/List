@@ -1,4 +1,4 @@
-import React from "react";
+
 import type { Repo } from "./types";
 
 interface RepoCardProps {
@@ -35,5 +35,6 @@ const RepoCard = ({ repo }: RepoCardProps) => (
     </div>
   </div>
 );
+
 
 export default RepoCard;
