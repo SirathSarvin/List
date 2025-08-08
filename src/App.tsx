@@ -1,4 +1,4 @@
-import React from 'react'
+
 import TrendingRepos from './components/TrendingRepos'
 
 const App = () => {
